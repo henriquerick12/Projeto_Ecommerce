@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+@import url("./card.css");
+@import url("./button.css");
+@import url("./paragraph.css");
+
+:root {
+  --color-primary: #2e245e;
+  --color-secondary: #37268c;
+
+  --color-grey-1: #333333;
+  --color-grey-2: #828282;
+  --color-grey-3: #f5f5f5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}

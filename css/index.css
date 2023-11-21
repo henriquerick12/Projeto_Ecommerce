@@ -1,0 +1,9 @@
+@import url("./globalStyles.css");
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
