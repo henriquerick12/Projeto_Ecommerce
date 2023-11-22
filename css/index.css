@@ -1,9 +1,67 @@
 @import url("./globalStyles.css");
 
-
+/* HEADER */
+.nav__container {
+  width: 100%;
+  box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
 .container {
   max-width: 1200px;
   margin: auto;
+  padding-inline: 1rem;
 }
 
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
 
+.logo__container {
+  max-width: 140px;
+}
+
+.logo__container a {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.nav__links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__link {
+  padding: 10px 0;
+  position: relative;
+}
+
+.nav__link::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  transition: 0.3s ease;
+}
+
+.nav__link:hover::before {
+  width: 70%;
+}
+
+.nav__link a {
+  color: #000;
+}
+
+/* MAIN */
+.main__container {
+  padding-inline: 0px;
+  padding-block: 60px;
+  display: flex;
+  gap: 50px;
+}
