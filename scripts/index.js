@@ -21,7 +21,7 @@ const createCard = (array) => {
   imgCard.src = array.img;
   h2Card.innerHTML = array.nameItem;
   pCard.innerHTML = array.description;
-  spanPriceCard.innerHTML = `R$ ${array.value}`;
+  spanPriceCard.innerHTML = `R$ ${array.value.toFixed(2)}`;
   buttonCard.innerHTML = array.addCart;
 
   divCard.append(imgCard);
@@ -38,7 +38,7 @@ const createCard = (array) => {
 };
 
 const renderCards = (array) => {
-  const section = document.querySelector(".card__container");
+  const section = document.querySelector(".cart__container");
 
   section.innerHTML = "";
 

@@ -60,7 +60,7 @@
 
 /* MAIN */
 .main__container {
-  padding-inline: 0px;
+  padding-inline: 2rem;
   padding-block: 60px;
   display: flex;
   gap: 50px;
