@@ -65,3 +65,32 @@
   display: flex;
   gap: 50px;
 }
+
+/* RESPONSIVO */
+@media (max-width:768px) {
+  .nav__links {
+    display: none;
+  }
+  .nav__content  {
+    justify-content: center;
+  }
+}
+
+@media (max-width:425px) {
+  .cart__search {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
